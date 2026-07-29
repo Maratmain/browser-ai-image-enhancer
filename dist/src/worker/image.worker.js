@@ -1,4 +1,3 @@
-/// <reference lib="webworker" />
 import { detectFormat } from "../codecs/detectFormat.js";
 import { probeImage } from "../codecs/dimensions.js";
 import { decodeImage } from "../codecs/nativeDecoder.js";
