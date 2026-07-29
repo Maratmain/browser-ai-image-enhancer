@@ -55,7 +55,6 @@ export class ImageEnhancer extends EventTarget {
                 this.#bridge.post({ type: "DISPOSE_TASK", taskId });
             }
             catch {
-                // The worker may already have been disposed.
             }
             this.#tasks.remove(taskId, true);
         });
@@ -192,7 +191,6 @@ export class ImageEnhancer extends EventTarget {
             this.#bridge.post({ type: "DISPOSE" });
         }
         catch {
-            // The worker may have failed before disposal.
         }
         this.#bridge.terminate();
         this.#submitted.clear();
