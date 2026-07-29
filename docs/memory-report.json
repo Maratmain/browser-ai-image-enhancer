@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-07-29T10:02:16Z",
+  "status": "PASS",
+  "environment": {
+    "os": "Linux-6.12.13-x86_64-with-glibc2.41",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "virtualDisplay": true,
+    "managedPolicyTemporarilyOverridden": true
+  },
+  "scope": "Chromium renderer JavaScript heap after explicit garbage collection; GPU and browser decoder memory are not included.",
+  "result": {
+    "runs": [
+      {
+        "processingMs": 342.6,
+        "outputBytes": 82159,
+        "backend": "webgl2"
+      },
+      {
+        "processingMs": 151.6,
+        "outputBytes": 79663,
+        "backend": "webgl2"
+      },
+      {
+        "processingMs": 175.1,
+        "outputBytes": 76486,
+        "backend": "webgl2"
+      },
+      {
+        "processingMs": 154.9,
+        "outputBytes": 75904,
+        "backend": "webgl2"
+      },
+      {
+        "processingMs": 155.9,
+        "outputBytes": 81443,
+        "backend": "webgl2"
+      },
+      {
+        "processingMs": 145.8,
+        "outputBytes": 75152,
+        "backend": "webgl2"
+      },
+      {
+        "processingMs": 146.7,
+        "outputBytes": 78000,
+        "backend": "webgl2"
+      },
+      {
+        "processingMs": 123,
+        "outputBytes": 81447,
+        "backend": "webgl2"
+      },
+      {
+        "processingMs": 125.7,
+        "outputBytes": 82437,
+        "backend": "webgl2"
+      },
+      {
+        "processingMs": 126.4,
+        "outputBytes": 79780,
+        "backend": "webgl2"
+      }
+    ],
+    "beforeJsHeapBytes": 765388.0,
+    "afterJsHeapBytes": 887096.0,
+    "retainedGrowthBytes": 121708.0,
+    "passed": true
+  }
+}

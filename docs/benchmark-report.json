@@ -1,0 +1,97 @@
+{
+  "generatedAt": "2026-07-29T10:02:29Z",
+  "status": "PASS",
+  "environment": {
+    "os": "Linux-6.12.13-x86_64-with-glibc2.41",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "virtualDisplay": true,
+    "managedPolicyTemporarilyOverridden": true
+  },
+  "benchmark": {
+    "generatedAt": "2026-07-29T10:02:29.582Z",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "capabilities": {
+      "worker": true,
+      "offscreenCanvas": true,
+      "createImageBitmap": true,
+      "webgl2": true,
+      "wasm": true,
+      "nativeJpegDecode": true,
+      "nativePngDecode": true,
+      "nativeBmpDecode": true,
+      "nativeHeicDecode": false,
+      "jpegEncode": true,
+      "pngEncode": true,
+      "maxTextureSize": 16384,
+      "maxRenderbufferSize": 16384,
+      "maxViewportWidth": 16384,
+      "maxViewportHeight": 16384,
+      "primaryMode": "worker-webgl2",
+      "inferenceBackend": "wasm"
+    },
+    "requestedBackend": "auto",
+    "thresholdsMs": {
+      "mean": 5000,
+      "p95": 15000,
+      "maximum": 30000
+    },
+    "summary": {
+      "mean": 605.2666666666667,
+      "p95": 854.6,
+      "maximum": 854.6
+    },
+    "rows": [
+      {
+        "name": "2 MP",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600,
+        "processingBackend": "webgl2",
+        "inferenceBackend": "wasm",
+        "validationMs": 1.2,
+        "decodingMs": 7.9,
+        "previewMs": 3.3,
+        "inferenceMs": 0.4,
+        "enhancementMs": 27.1,
+        "encodingMs": 131.6,
+        "processingMs": 171.9,
+        "outputSizeBytes": 102624,
+        "success": true
+      },
+      {
+        "name": "8 MP",
+        "width": 3264,
+        "height": 2448,
+        "pixels": 7990272,
+        "processingBackend": "webgl2",
+        "inferenceBackend": "wasm",
+        "validationMs": 3.2,
+        "decodingMs": 138.7,
+        "previewMs": 34.6,
+        "inferenceMs": 0.2,
+        "enhancementMs": 455.3,
+        "encodingMs": 156.3,
+        "processingMs": 789.3,
+        "outputSizeBytes": 303188,
+        "success": true
+      },
+      {
+        "name": "15 MP",
+        "width": 5000,
+        "height": 3000,
+        "pixels": 15000000,
+        "processingBackend": "webgl2",
+        "inferenceBackend": "wasm",
+        "validationMs": 1.1,
+        "decodingMs": 68,
+        "previewMs": 21.4,
+        "inferenceMs": 0.1,
+        "enhancementMs": 588.6,
+        "encodingMs": 173.6,
+        "processingMs": 854.6,
+        "outputSizeBytes": 447890,
+        "success": true
+      }
+    ]
+  }
+}

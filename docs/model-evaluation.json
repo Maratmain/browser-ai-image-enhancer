@@ -1,0 +1,13 @@
+{
+  "checkpoint": "training/checkpoints/baseline.pt",
+  "samples": 1800,
+  "seed": 20260731,
+  "externalSources": 0,
+  "metrics": {
+    "loss": 0.3833125869433085,
+    "exposure_mae": 0.1120014637708664,
+    "contrast_mae": 0.06591492891311646,
+    "saturation_mae": 0.12666094303131104,
+    "strength_accuracy": 0.9961111111111111
+  }
+}

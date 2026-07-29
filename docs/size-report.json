@@ -1,0 +1,103 @@
+{
+  "generatedAt": "2026-07-29T10:06:54.152Z",
+  "limitBytes": 10000000,
+  "localBytes": 242538,
+  "remoteBytes": 3000000,
+  "totalBytes": 3242538,
+  "passed": true,
+  "largestLocalFiles": [
+    {
+      "path": "src/ml/modelWeights.js",
+      "bytes": 37320
+    },
+    {
+      "path": "licenses/GPL-3.0.txt",
+      "bytes": 35149
+    },
+    {
+      "path": "assets/model.wasm",
+      "bytes": 20419
+    },
+    {
+      "path": "src/worker/image.worker.js",
+      "bytes": 18741
+    },
+    {
+      "path": "demo/main.js",
+      "bytes": 12492
+    },
+    {
+      "path": "assets/model-weights.bin",
+      "bytes": 10608
+    },
+    {
+      "path": "demo/styles.css",
+      "bytes": 9590
+    },
+    {
+      "path": "src/api/ImageEnhancer.js",
+      "bytes": 8935
+    },
+    {
+      "path": "benchmark/benchmark.js",
+      "bytes": 8501
+    },
+    {
+      "path": "licenses/heic-to-LGPL-3.0.txt",
+      "bytes": 7652
+    },
+    {
+      "path": "index.html",
+      "bytes": 7359
+    },
+    {
+      "path": "src/processing/webglProcessor.js",
+      "bytes": 5845
+    },
+    {
+      "path": "asset-manifest.json",
+      "bytes": 5401
+    },
+    {
+      "path": "src/api/TaskManager.js",
+      "bytes": 5047
+    },
+    {
+      "path": "src/codecs/nativeDecoder.js",
+      "bytes": 5009
+    },
+    {
+      "path": "src/ml/javascriptRuntime.js",
+      "bytes": 4848
+    },
+    {
+      "path": "src/ml/predictor.js",
+      "bytes": 3481
+    },
+    {
+      "path": "src/codecs/dimensions.js",
+      "bytes": 3375
+    },
+    {
+      "path": "src/codecs/bmpDecoder.js",
+      "bytes": 2949
+    },
+    {
+      "path": "src/codecs/exifOrientation.js",
+      "bytes": 2907
+    }
+  ],
+  "remoteAssets": [
+    {
+      "name": "heic-to software decoder",
+      "url": "https://cdn.jsdelivr.net/npm/heic-to@1.5.2/dist/next/heic-to.js",
+      "package": "heic-to",
+      "packageVersion": "1.5.2",
+      "declaredBytes": 3000000,
+      "listedSize": "2.86 MB",
+      "license": "LGPL-3.0-or-later",
+      "lazy": true,
+      "purpose": "HEIC/HEIF decoding only when native decoding is unavailable"
+    }
+  ]
+}

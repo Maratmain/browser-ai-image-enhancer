@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-07-29T10:08:28.717Z",
+  "status": "PASS",
+  "gitHistoryChecked": false,
+  "checkedFor": [
+    "private key",
+    "AWS access key",
+    "GitHub token",
+    "OpenAI-style secret",
+    "Slack token",
+    "generic bearer token",
+    "embedded password",
+    "local macOS path",
+    "local Windows path",
+    "local Linux home path",
+    "container working path",
+    "email address"
+  ],
+  "findings": []
+}

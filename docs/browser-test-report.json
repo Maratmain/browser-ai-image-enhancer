@@ -1,0 +1,375 @@
+{
+  "generatedAt": "2026-07-29T10:02:04Z",
+  "status": "PASS",
+  "environment": {
+    "os": "Linux-6.12.13-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "virtualDisplay": true,
+    "managedPolicyTemporarilyOverridden": true
+  },
+  "testedBrowsers": [
+    "Chromium"
+  ],
+  "notTestedHere": [
+    "Firefox",
+    "Safari macOS",
+    "Safari iOS",
+    "Chrome Android"
+  ],
+  "result": {
+    "capabilitiesText": "Web Worker\nPASS\nOffscreenCanvas\nPASS\nWebGL2\nPASS \u00b7 16384 px\nWebAssembly ML\nWASM\nJPEG encoder\nPASS\nPNG encoder\nPASS",
+    "cases": [
+      {
+        "name": "sample.jpg",
+        "requestedBackend": "webgl2",
+        "status": "completed",
+        "progress": 100,
+        "processingBackend": "webgl2",
+        "inferenceBackend": "wasm",
+        "processingTimeMs": 134.1,
+        "outputType": "image/jpeg",
+        "outputSize": 26406,
+        "input": {
+          "format": "jpeg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 21847,
+          "width": 640,
+          "height": 420,
+          "pixels": 268800,
+          "hasAlpha": false
+        },
+        "output": {
+          "mimeType": "image/jpeg",
+          "sizeBytes": 26406,
+          "width": 640,
+          "height": 420
+        },
+        "parameters": {
+          "exposureEV": 0.019613124975381972,
+          "contrast": 1.141453545535925,
+          "saturation": 0.9043902019145212,
+          "correctionStrength": 0.9961883171045888,
+          "pivot": 0.21506792306900024
+        },
+        "timings": {
+          "validationMs": 1.4,
+          "decodingMs": 3.4,
+          "normalizationMs": 0,
+          "previewMs": 4.9,
+          "inferenceMs": 0.1,
+          "safetyGuardMs": 0.2,
+          "enhancementMs": 15.2,
+          "encodingMs": 108.5,
+          "processingMs": 134.1
+        },
+        "warnings": [
+          {
+            "code": "METADATA_STRIPPED",
+            "message": "\u041c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0435 EXIF \u0438 GPS \u043d\u0435 \u043f\u0435\u0440\u0435\u043d\u0435\u0441\u0435\u043d\u044b \u0432 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442."
+          }
+        ],
+        "decoded": {
+          "width": 640,
+          "height": 420
+        }
+      },
+      {
+        "name": "sample.png",
+        "requestedBackend": "cpu",
+        "status": "completed",
+        "progress": 100,
+        "processingBackend": "cpu",
+        "inferenceBackend": "wasm",
+        "processingTimeMs": 131.2,
+        "outputType": "image/png",
+        "outputSize": 48292,
+        "input": {
+          "format": "png",
+          "mimeType": "image/png",
+          "sizeBytes": 10293,
+          "width": 640,
+          "height": 420,
+          "pixels": 268800,
+          "hasAlpha": true
+        },
+        "output": {
+          "mimeType": "image/png",
+          "sizeBytes": 48292,
+          "width": 640,
+          "height": 420
+        },
+        "parameters": {
+          "exposureEV": -0.5410382747893974,
+          "contrast": 1.1348598605660125,
+          "saturation": 0.9393010447310673,
+          "correctionStrength": 0.9991424446435903,
+          "pivot": 0.2640864849090576
+        },
+        "timings": {
+          "validationMs": 0.9,
+          "decodingMs": 1.6,
+          "normalizationMs": 0,
+          "previewMs": 2.3,
+          "inferenceMs": 0.2,
+          "safetyGuardMs": 0,
+          "enhancementMs": 45.8,
+          "encodingMs": 79.9,
+          "processingMs": 131.2
+        },
+        "warnings": [
+          {
+            "code": "METADATA_STRIPPED",
+            "message": "\u041c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0435 EXIF \u0438 GPS \u043d\u0435 \u043f\u0435\u0440\u0435\u043d\u0435\u0441\u0435\u043d\u044b \u0432 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442."
+          }
+        ],
+        "decoded": {
+          "width": 640,
+          "height": 420
+        }
+      },
+      {
+        "name": "sample24.bmp",
+        "requestedBackend": "auto",
+        "status": "completed",
+        "progress": 100,
+        "processingBackend": "webgl2",
+        "inferenceBackend": "wasm",
+        "processingTimeMs": 83.3,
+        "outputType": "image/png",
+        "outputSize": 65310,
+        "input": {
+          "format": "bmp",
+          "mimeType": "image/bmp",
+          "sizeBytes": 806454,
+          "width": 640,
+          "height": 420,
+          "pixels": 268800,
+          "hasAlpha": false
+        },
+        "output": {
+          "mimeType": "image/png",
+          "sizeBytes": 65310,
+          "width": 640,
+          "height": 420
+        },
+        "parameters": {
+          "exposureEV": 0.014704837488934175,
+          "contrast": 1.1416527992394478,
+          "saturation": 0.9048940401140232,
+          "correctionStrength": 0.9962253666151779,
+          "pivot": 0.21555356681346893
+        },
+        "timings": {
+          "validationMs": 3.1,
+          "decodingMs": 4.3,
+          "normalizationMs": 0,
+          "previewMs": 0.7,
+          "inferenceMs": 0.2,
+          "safetyGuardMs": 0,
+          "enhancementMs": 14,
+          "encodingMs": 60.2,
+          "processingMs": 83.3
+        },
+        "warnings": [
+          {
+            "code": "METADATA_STRIPPED",
+            "message": "\u041c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0435 EXIF \u0438 GPS \u043d\u0435 \u043f\u0435\u0440\u0435\u043d\u0435\u0441\u0435\u043d\u044b \u0432 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442."
+          }
+        ],
+        "decoded": {
+          "width": 640,
+          "height": 420
+        }
+      },
+      {
+        "name": "sample32.bmp",
+        "requestedBackend": "cpu",
+        "status": "completed",
+        "progress": 100,
+        "processingBackend": "cpu",
+        "inferenceBackend": "wasm",
+        "processingTimeMs": 22.2,
+        "outputType": "image/png",
+        "outputSize": 3813,
+        "input": {
+          "format": "bmp",
+          "mimeType": "image/bmp",
+          "sizeBytes": 24630,
+          "width": 96,
+          "height": 64,
+          "pixels": 6144,
+          "hasAlpha": true
+        },
+        "output": {
+          "mimeType": "image/png",
+          "sizeBytes": 3813,
+          "width": 96,
+          "height": 64
+        },
+        "parameters": {
+          "exposureEV": -1.0890146322647642,
+          "contrast": 1.121182879014849,
+          "saturation": 0.9914051045308888,
+          "correctionStrength": 0.9999765905154714,
+          "pivot": 0.45804357528686523
+        },
+        "timings": {
+          "validationMs": 0.9,
+          "decodingMs": 0.9,
+          "normalizationMs": 0,
+          "previewMs": 1.9,
+          "inferenceMs": 0.4,
+          "safetyGuardMs": 0,
+          "enhancementMs": 2.4,
+          "encodingMs": 15.6,
+          "processingMs": 22.2
+        },
+        "warnings": [
+          {
+            "code": "METADATA_STRIPPED",
+            "message": "\u041c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0435 EXIF \u0438 GPS \u043d\u0435 \u043f\u0435\u0440\u0435\u043d\u0435\u0441\u0435\u043d\u044b \u0432 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442."
+          }
+        ],
+        "decoded": {
+          "width": 96,
+          "height": 64
+        }
+      },
+      {
+        "name": "orientation6.jpg",
+        "requestedBackend": "webgl2",
+        "status": "completed",
+        "progress": 100,
+        "processingBackend": "webgl2",
+        "inferenceBackend": "wasm",
+        "processingTimeMs": 73.5,
+        "outputType": "image/jpeg",
+        "outputSize": 27764,
+        "input": {
+          "format": "jpeg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 24256,
+          "width": 420,
+          "height": 640,
+          "pixels": 268800,
+          "hasAlpha": false
+        },
+        "output": {
+          "mimeType": "image/jpeg",
+          "sizeBytes": 27764,
+          "width": 420,
+          "height": 640
+        },
+        "parameters": {
+          "exposureEV": -0.13519121960224806,
+          "contrast": 1.129854801075811,
+          "saturation": 0.9106214966276271,
+          "correctionStrength": 0.9970836039798565,
+          "pivot": 0.21506792306900024
+        },
+        "timings": {
+          "validationMs": 0.9,
+          "decodingMs": 2,
+          "normalizationMs": 0,
+          "previewMs": 0.8,
+          "inferenceMs": 0.2,
+          "safetyGuardMs": 0,
+          "enhancementMs": 13.5,
+          "encodingMs": 56,
+          "processingMs": 73.5
+        },
+        "warnings": [
+          {
+            "code": "METADATA_STRIPPED",
+            "message": "\u041c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0435 EXIF \u0438 GPS \u043d\u0435 \u043f\u0435\u0440\u0435\u043d\u0435\u0441\u0435\u043d\u044b \u0432 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442."
+          }
+        ],
+        "decoded": {
+          "width": 420,
+          "height": 640
+        }
+      }
+    ],
+    "cpuGpuComparison": {
+      "meanAbsoluteError": 7.192460317460317e-05,
+      "maximumError": 1,
+      "alphaMismatch": 0,
+      "gpuBackend": "webgl2",
+      "cpuBackend": "cpu"
+    },
+    "maxImage": {
+      "capabilities": {
+        "worker": true,
+        "offscreenCanvas": true,
+        "createImageBitmap": true,
+        "webgl2": true,
+        "wasm": true,
+        "nativeJpegDecode": true,
+        "nativePngDecode": true,
+        "nativeBmpDecode": true,
+        "nativeHeicDecode": false,
+        "jpegEncode": true,
+        "pngEncode": true,
+        "maxTextureSize": 16384,
+        "maxRenderbufferSize": 16384,
+        "maxViewportWidth": 16384,
+        "maxViewportHeight": 16384,
+        "primaryMode": "worker-webgl2",
+        "inferenceBackend": "wasm"
+      },
+      "status": "completed",
+      "backend": "webgl2",
+      "inferenceBackend": "wasm",
+      "processingTimeMs": 957.5,
+      "timings": {
+        "validationMs": 1.8,
+        "decodingMs": 120.8,
+        "normalizationMs": 0,
+        "previewMs": 24.1,
+        "inferenceMs": 0.2,
+        "safetyGuardMs": 0.1,
+        "enhancementMs": 594.7,
+        "encodingMs": 212.8,
+        "processingMs": 957.5
+      },
+      "outputDimensions": [
+        5000,
+        3000
+      ],
+      "inputSize": 145026,
+      "outputSize": 182155
+    },
+    "cancellation": {
+      "aborted": {
+        "taskId": "d130de03-1932-4cef-8979-e356adddd7cc",
+        "success": true,
+        "status": "cancelled"
+      },
+      "status": "cancelled",
+      "progress": 1
+    },
+    "diagnostics": {
+      "startedAt": "2026-07-29T10:02:03.763Z",
+      "status": "PASS",
+      "runs": [
+        {
+          "backend": "cpu",
+          "status": "completed",
+          "bytes": 182617,
+          "processingMs": 93.6,
+          "actualBackend": "cpu"
+        },
+        {
+          "backend": "auto",
+          "status": "completed",
+          "bytes": 182617,
+          "processingMs": 80.5,
+          "actualBackend": "webgl2"
+        }
+      ],
+      "finishedAt": "2026-07-29T10:02:04.012Z"
+    },
+    "pageErrors": []
+  }
+}
