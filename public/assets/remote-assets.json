@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "name": "heic-to software decoder",
+      "url": "https://cdn.jsdelivr.net/npm/heic-to@1.5.2/dist/next/heic-to.js",
+      "package": "heic-to",
+      "packageVersion": "1.5.2",
+      "declaredBytes": 3000000,
+      "listedSize": "2.86 MB",
+      "license": "LGPL-3.0-or-later",
+      "lazy": true,
+      "purpose": "HEIC/HEIF decoding only when native decoding is unavailable"
+    }
+  ]
+}

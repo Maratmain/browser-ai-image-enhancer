@@ -1,0 +1,32 @@
+{
+  "name": "browser-ai-image-enhancer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Privacy-first browser image enhancement with a tiny ML model, WebAssembly inference, WebGL2 rendering and a CPU fallback.",
+  "scripts": {
+    "clean": "node scripts/clean.mjs",
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs dist 4173",
+    "lint": "node scripts/lint.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node scripts/build.mjs && node --test tests/node/*.test.mjs",
+    "test:coverage": "npm run test",
+    "test:integration": "python tests/integration/run_integration.py",
+    "test:browser": "python tests/browser/run_browser_tests.py",
+    "benchmark": "python benchmark/run_benchmark.py",
+    "size": "node scripts/check-size.mjs",
+    "security": "node scripts/security-audit.mjs",
+    "licenses": "node scripts/generate-license-report.mjs",
+    "verify": "npm run licenses && npm run lint && npm run typecheck && npm run test && npm run test:integration && npm run size && npm run pages && npm run security",
+    "test:memory": "python tests/browser/run_memory_test.py",
+    "pages": "node scripts/stage-pages.mjs",
+    "test:pages": "python tests/browser/run_pages_smoke.py"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
+  },
+  "license": "MIT"
+}

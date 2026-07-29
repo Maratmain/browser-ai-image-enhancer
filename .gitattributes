@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.wasm binary
+*.bin binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.bmp binary
+*.heic binary
+*.heif binary
